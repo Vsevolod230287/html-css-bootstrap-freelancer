@@ -15,3 +15,41 @@
 .bg-primary {
   background-color: #1abc9c !important;
 }
+
+/* custom bootsrap */
+.navbar {
+  margin-bottom: 0;
+  border: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  display: inline-block;
+  width: 20%;
+  border-radius: 2px;
+  border: 2px solid white;
+  vertical-align: middle;
+}
+
+.fa-star {
+  vertical-align: middle;
+  font-size: 23px;
+  display: inline-block;
+}
+.col-xs-12.h-40 {
+  text-align: center;
+}
+
+
+
+/* utility */
+.h-40 {
+  height: 40px;
+}
+
+.ml-13 {
+  margin-left: 13px;
+}
