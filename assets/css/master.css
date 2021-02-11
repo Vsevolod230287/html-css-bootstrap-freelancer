@@ -6,6 +6,7 @@
 }
 
 body {
+  font-size: 1rem;
   padding-top: 50px;
 }
 
@@ -33,6 +34,12 @@ body {
   background-color: #1a252f;
 }
 
+/* header */
+header .jumbo img {
+  width: 20%;
+}
+
+/* header */
 .my-form-control {
   border-radius: 0;
   background-color: #fff;
@@ -68,6 +75,7 @@ textarea {
 }
 
 h3 {
+  font-size: 45px;
   font-weight: 900;
 }
 
@@ -116,25 +124,6 @@ main .col-xs-12 img {
   border-radius: 7px;
 }
 
-main .overlay img {}
-
-.overlay {
-  z-index: 2;
-  border-radius: 7px;
-  color: #FFF;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: block;
-}
-
-.overlay i {
-  font-size: 50px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 #portfoglio .card {
   position: relative;
 }
@@ -145,6 +134,7 @@ main .col-xs-12.hr-star-hr {
 }
 
 #about .btn-xl {
+  font-size: 15px;
   margin-top: 15px;
   border-radius: 5px;
   border: 2px solid #fff;
@@ -152,7 +142,11 @@ main .col-xs-12.hr-star-hr {
 }
 
 #about p {
+  font-size: 13px;
   margin-top: 15px;
+}
+form label {
+  font-size: 15px;
 }
 
 form button {
@@ -169,7 +163,9 @@ form button {
 #footer-social h4 {
   padding-bottom: 10px;
 }
+
 #footer-social p {
+  font-size: 13px;
   padding-bottom: 10px;
 }
 
@@ -201,13 +197,14 @@ form button {
   color: #1abc9c;
 }
 
-
 #footer-coopyright {
   color: #fff;
 }
 
-
 /* footer */
+
+
+
 /* utility */
 .pb-0 {
   padding-bottom: 0;
@@ -225,17 +222,84 @@ form button {
   margin-left: 13px;
 }
 
-@media all and (min-width: 768px) {}
+@media all and (min-width: 768px) {
+  .btn {
+    border-radius: 6px;
+    font-size: 15px;
+  }
 
-@media all and (min-width: 992px) {}
+
+
+  h4 {
+    font-size: 23px;
+  }
+
+  header .navbar-right li a {
+    font-size: 1.5rem;
+  }
+
+  header nav a.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .btn {
+    border-radius: 6px;
+    font-size: 15px;
+  }
+
+
+
+  h4 {
+    font-size: 23px;
+  }
+
+  header .navbar-right li a {
+    text-transform: uppercase;
+    font-size: 1.7rem;
+  }
+
+  header nav a.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.2rem;
+  }
+
+
+}
 
 @media all and (min-width: 1200px) {
+  #footer-coopyright {
+    font-size: 13px;
+  }
+
+  #footer-social p {
+    font-size: 15px;
+  }
+
+  #about p {
+    font-size: 13px;
+  }
+
   header nav.navbar.navbar-default {
-    height: 90px;
-    padding-top: 20px;
+    height: 80px;
+    padding-top: 1.5rem;
   }
 
   body {
-    padding-top: 90px;
+    padding-top: 80px;
+  }
+
+  header nav a.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2.75rem;
+  }
+
+  header nav ul.navbar-right li a {
+    font-size: 1.75rem;
   }
 }
