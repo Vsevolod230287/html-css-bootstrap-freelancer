@@ -166,6 +166,13 @@ form button {
   color: #fff;
 }
 
+#footer-social h4 {
+  padding-bottom: 10px;
+}
+#footer-social p {
+  padding-bottom: 10px;
+}
+
 #footer-social i.fa-facebook-f {
   border-radius: 50%;
   border: 2px solid #fff;
@@ -194,6 +201,10 @@ form button {
   color: #1abc9c;
 }
 
+
+#footer-coopyright {
+  color: #fff;
+}
 
 
 /* footer */
