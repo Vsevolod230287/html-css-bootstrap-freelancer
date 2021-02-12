@@ -58,6 +58,9 @@ header .jumbo img {
   margin-bottom: 0;
   border: none;
 }
+.nav>li>a {
+    font-size: 13px;
+  }
 
 textarea {
   border: none;
@@ -125,7 +128,32 @@ main .col-xs-12 img {
 }
 
 #portfoglio .card {
+  height: 100%;
   position: relative;
+  border-radius: 7px;
+}
+
+.card:hover .overlay {
+  display: block;
+}
+
+.card .overlay {
+  border-radius: 7px;
+  display: none;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 100%;
+}
+
+.fa-plus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 70px;
 }
 
 main .col-xs-12.hr-star-hr {
@@ -145,6 +173,7 @@ main .col-xs-12.hr-star-hr {
   font-size: 13px;
   margin-top: 15px;
 }
+
 form label {
   font-size: 15px;
 }
@@ -175,6 +204,7 @@ form button {
   padding: 8px 13px;
 }
 
+
 #footer-social i.fa-google-plus-g {
   border-radius: 50%;
   border: 2px solid #fff;
@@ -193,6 +223,22 @@ form button {
   padding: 8px 11px;
 }
 
+#footer-social i.fa-facebook-f:hover {
+  background-color: lightgrey;
+}
+#footer-social i.fa-google-plus-g:hover {
+  background-color: lightgrey;
+}
+#footer-social i.fa-twitter:hover {
+  background-color: lightgrey;
+}
+#footer-social i.fa-linkedin-in:hover {
+  background-color: lightgrey;
+}
+
+
+
+
 #footer-social a {
   color: #1abc9c;
 }
@@ -202,9 +248,6 @@ form button {
 }
 
 /* footer */
-
-
-
 /* utility */
 .pb-0 {
   padding-bottom: 0;
@@ -228,8 +271,6 @@ form button {
     font-size: 15px;
   }
 
-
-
   h4 {
     font-size: 23px;
   }
@@ -251,8 +292,6 @@ form button {
     font-size: 15px;
   }
 
-
-
   h4 {
     font-size: 23px;
   }
@@ -267,8 +306,6 @@ form button {
     font-weight: 700;
     font-size: 2.2rem;
   }
-
-
 }
 
 @media all and (min-width: 1200px) {
